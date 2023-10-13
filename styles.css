@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+.cabecalho {
+    margin: 2%;
+}
+
 ul {
     list-style: none;
 }
@@ -35,6 +39,7 @@ h1 {
 h2 {
     font-family: 'Pacifico', cursive;
     font-size: 32px;
+    margin: 3%;
 }
 
 header img {
@@ -50,7 +55,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50px;
-    border: 5px solid blueviolet;
+    border: 5px solid black;
 }
 
 .header h1 {
@@ -60,7 +65,7 @@ header img {
 .conteiner {
     font-family: 'dollie script' curs;
     padding: 10px 60px;
-    margin: 0px 50px;
+    margin: 50px 50px;
 }
 
 nav a:hover {
@@ -96,7 +101,7 @@ footer a {
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    margin: 1%;
+    margin: 3%;
     font-size: 16px;
 }
 
@@ -118,6 +123,7 @@ footer a {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
+    margin: 1%;
 }
 
 .cart ul {
@@ -178,7 +184,7 @@ header p {
 
     .conteiner {
         padding: 10px; /* Reduz o preenchimento para dispositivos móveis */
-        margin: 10px; /* Reduz a margem para dispositivos móveis */
+        margin: 20px auto; /* Reduz a margem para dispositivos móveis */
     }
 
     .cart h2 {
@@ -196,4 +202,40 @@ header p {
     #checkout-whatsapp {
         margin-top: 20px;
     }
+}
+/* Estilização da barra de topo */
+.top-bar {
+    background-color: #333; /* Cor de fundo da barra */
+    color: #fff; /* Cor do texto */
+    padding: 5px 0; /* Espaçamento interno superior e inferior */
+}
+.top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.top-bar img {
+    max-width: 100px; /* Tamanho máximo da imagem do logo */
+    height: auto;
+}
+
+.top-bar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-bar nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Efeito de hover nos links */
+.top-bar nav a:hover {
+    text-decoration: underline;
 }
