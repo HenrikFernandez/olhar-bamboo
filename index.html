@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olhar Bamboo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Olhar Bamboo</h1>
+        </header>
+        <nav>
+            <ul class="right-menu">
+                <li> <a href="https://wa.me/5592982229102">Contato</a></li>
+                <li> <a href="sobrenos.html">Quem somos</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src=".//img/Imagem do WhatsApp de 2023-10-11 à(s) 12.58.54_1e153c52.jpg" alt="">
+        </div>
+        <h2>Produtos de maquiagem</h2>
+        <div class="product">
+            <img src=".//img/esponja.jpg" alt="Produto 1">
+            <p class="product-name">Esponja</p>
+            <p class="product-price">R$ 6.00</p>
+            <input type="number" class="quantity" value="0">
+            <button class="add-to-cart" data-product="Esponja">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <img src=".//img/base mate.jpg" alt="Produto 2">
+            <p class="product-name">Base Matte</p>
+            <p class="product-price">R$ 40.00</p>
+            <input type="number" class="quantity" value="0">
+            <button class="add-to-cart" data-product="Base Matte">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    
+    <div class="cart">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+            <!-- Itens do carrinho serão adicionados aqui via JavaScript -->
+        </ul>
+        <p>Valor Total: R$ <span id="total-value">0.00</span></p>
+        <button id="checkout-whatsapp">Enviar para o WhatsApp</button>
+    </div>
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/olharbamboo/" target="_blank" rel="noopener noreferrer">
+                <img src=".//img/instagran.sgv.jpg" alt="">
+                <p>Instagran</p>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

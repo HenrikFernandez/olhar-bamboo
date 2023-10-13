@@ -1,0 +1,199 @@
+body {
+    color: white;
+    background-color: rgb(123, 220, 123);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.right-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-menu li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    font-size: 24px;
+}
+
+/* Use a fonte "Pacifico" para o título "Produtos de Maquiagem" */
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+.center {
+    text-align: left;
+}
+
+.center img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: 5px solid blueviolet;
+}
+
+.header h1 {
+    margin-top: 0;
+}
+
+.conteiner {
+    font-family: 'dollie script' curs;
+    padding: 10px 60px;
+    margin: 0px 50px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px;
+}
+
+footer p {
+    margin: 2px;
+}
+
+footer a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.product {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    font-size: 16px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 5px;
+    color: violet;
+}
+
+.cart {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+#checkout-whatsapp {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#checkout-whatsapp:hover {
+    background-color: #0056b3;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    text-align: center;
+    padding: 0 10cm;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.center-title {
+    text-align: center;
+    padding: 0 10cm;
+}
+
+/* Regras de mídia para dispositivos móveis (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 18px; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+
+    h2 {
+        font-size: 24px; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+
+    header p {
+        padding: 0 1cm; /* Reduz o espaçamento para dispositivos móveis */
+    }
+
+    .conteiner {
+        padding: 10px; /* Reduz o preenchimento para dispositivos móveis */
+        margin: 10px; /* Reduz a margem para dispositivos móveis */
+    }
+
+    .cart h2 {
+        font-size: 20px; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+
+    .product {
+        max-width: 100%; /* Ocupa todo o espaço disponível para dispositivos móveis */
+    }
+
+    .product img {
+        width: 100%; /* Redimensiona a imagem para dispositivos móveis */
+    }
+
+    #checkout-whatsapp {
+        margin-top: 20px;
+    }
+}
