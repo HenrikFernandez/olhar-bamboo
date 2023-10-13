@@ -100,11 +100,10 @@ footer a {
 }
 
 .product img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50px;
-    border: 5px;
-    color: violet;
+    border: 5px solid blueviolet;
 }
 
 .cart {
@@ -190,7 +189,7 @@ header p {
     }
 
     .product img {
-        width: 100%; /* Redimensiona a imagem para dispositivos móveis */
+        width: 50%; /* Redimensiona a imagem para dispositivos móveis */
     }
 
     #checkout-whatsapp {
